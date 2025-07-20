@@ -1,49 +1,37 @@
-# Banking_App_Console_Based
-This is core java Project
+🏦 Banking App Console-Based
+This is a Core Java project that simulates a simple banking system through the command-line interface. The application demonstrates basic banking operations such as login, deposit, withdrawal, and balance inquiry.
 
-This is a basic Banking Console Application developed in Java. It simulates a simple ATM or bank account system allowing users to:
-=====================================================================================================================================
- Features:
-Login with PIN authentication (3 attempts max)
+🚀 Features
+🔐 Login with PIN authentication (Maximum 3 attempts)
 
-Deposit money into the account
+💵 Deposit money into the account
 
-Withdraw money (if sufficient balance)
+💳 Withdraw money from the account (with sufficient balance)
 
-Check current balance
+📄 Check current balance
 
-Exit the application safely
+❌ Exit the application safely
 
-=========================================================================================================================================
+🔒 Security
+Blocks access after 3 incorrect PIN attempts to simulate card lock behavior.
 
- Security:
-Only allows 3 incorrect PIN attempts before blocking further access.
+👤 User Information Tracked
+🆔 Bank ID
 
- User Info Tracked:
-Bank ID
+👤 User Name
 
-User Name
+🏦 Account Number
 
-Account Number
+📝 Additional Notes
+The application uses a hardcoded PIN (1212) for demonstration purposes.
 
-========================================================================================================
+The initial account balance is set to ₹1000.00.
 
- Additional Notes:
-The app uses a hardcoded PIN (1212) for demo purposes.
+Every transaction (Deposit, Withdraw, Balance Check) prints user account details via the printDetails method.
 
-Initial account balance is set to ₹1000.00.
+🛠️ Technologies Used
+☕ Java (JDK 8 or higher)
 
-All transaction details (Deposit/Withdraw/Balance) are printed with user details using the printDetails method.
+📥 Scanner class for input
 
-==========================================================================================================
-
- Technologies Used:
-Java (JDK 8 or higher)
-
-Scanner for console input
-
-Basic control flow (if-else, do-while loops)
-
-============================================================================================================
-
-
+🧠 Basic control structures (if-else, do-while loops)
